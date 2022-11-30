@@ -1,4 +1,5 @@
-from keras.preprocessing.image import ImageDataGenerator,array_to_img
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.utils import array_to_img
 from keras import Model
 from keras import layers
 from keras import Input
